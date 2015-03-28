@@ -16,6 +16,7 @@ class City(Model):
     population_2013 = IntegerField()
     population_2014 = IntegerField()
     population_avg_2013 = IntegerField()
+    mayor = CharField(null=True)
 
     class Meta:
         database = db
